@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1120px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?cs=srgb&dl=pexels-tahir-shaw-186980.jpg&fm=jpg);
+    width: 100vw;
+    /* background-image: url(https://images.ctfassets.net/pjshm78m9jt4/139Cti8AZaAxEedoK7IoSj/d9a16a65929b1c155b7811e40ec47d05/Weather_Generic_Hero_Image_Sunny_Spells.png); */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    padding-top: 100px;
+    text-align: center;
+}
+.wrapper{
+    padding-top: 60px;
+    width: 450px;
+    height: 340px;
+    background-color: rgb(240, 240, 240, .8);
+    border-radius: 8px;
+}
+.form{
+    vertical-align: middle;
+    display: flex;
+    margin-left: 30px;
+}
+.input{
+    border: 1px solid gray;
+    border-radius: 6px;
+    background: transparent;
+    height: 32px;
+    width: 230px;
+    font-size: 20px;
+}
+.btn{
+    background: transparent;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin-left: 10px;
+    height: 36px;
+    width: 140px;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 6px;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+.weather__name{
+    font-size: 30px;
+    color: rgb(30, 26, 26);
+}
+.weather__country{
+    padding: 0px;
+    margin: 0;
+    font-size: 27px;
+}
+.weather__temper{
+    padding: 10px 0; 
+    font-size: 24px;
+}
+.weather__speed{
+    font-size: 21px;
+}
+.desc{
+    font-size: 19px;
+}
+.description{
+    font-size: 16px;
+}
